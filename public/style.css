@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Bangers&family=Dancing+Script:wght@500&display=swap");
+body {
+  background: rgb(235, 237, 219);
+  background: linear-gradient(
+    0deg,
+    rgba(235, 237, 219, 1) 11%,
+    rgba(148, 233, 213, 1) 64%,
+    rgba(251, 252, 249, 1) 98%
+  );
+}
+header,
+main,
+footer {
+  margin-top: 2%;
+}
+footer {
+  color: aliceblue;
+  text-align: center;
+}
+h5 {
+  font-size: 30px;
+  font-family: "Dancing Script", cursive;
+}
+h6 {
+  text-align: right;
+}
+footer {
+  color: rgba(12, 116, 117, 1);
+}
+.photo {
+  border: 10px solid rgba(12, 116, 117, 1);
+  border-radius: 50px;
+  width: 200px;
+}
+.p-profile,
+.item {
+  margin-left: 5%;
+}
+.item {
+  text-align: left;
+}
+.hello {
+  background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(14, 174, 87, 1) 0%,
+    rgba(12, 116, 117, 1) 90%
+  );
+  font-family: "Bangers", cursive;
+  font-size: 85px;
+  /* color: cadetblue; */
+  text-align: left;
+}
+.name {
+  background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(14, 174, 87, 1) 0%,
+    rgba(12, 116, 117, 1) 90%
+  );
+  font-family: "Bangers", cursive;
+  font-size: 90px;
+  /* color: cadetblue; */
+  text-align: right;
+}
+.block:hover {
+  background-image: linear-gradient(
+    180.5deg,
+    rgba(46, 255, 171, 1) 12.3%,
+    rgba(252, 251, 222, 0.46) 92%
+  );
+  color: black;
+}
+.block {
+  margin-top: 20px;
+  border: 10px solid rgba(12, 116, 117, 1);
+  border-radius: 50px;
+  /* background-color: black; */
+}
+.fab {
+  margin: 1% 5px 0% 5px;
+  font-size: 40px;
+}
+.btn {
+  font-family: "Bangers", cursive;
+  color: aliceblue;
+  background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(14, 174, 87, 1) 0%,
+    rgba(12, 116, 117, 1) 90%
+  );
+}
+.fa-github {
+  color: rgb(79, 26, 129);
+}
+.fa-instagram {
+  color: rgb(201, 81, 171);
+}
+/* @media only screen and(min-width:800px) {
+  .hello,
+  .name {
+    font-size: 24px;
+  } */
+}

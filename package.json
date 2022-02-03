@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/dheerj18/cv/issues"
   },
-  "homepage": "https://github.com/dheerj18/cv#readme"
+  "homepage": "https://github.com/dheerj18/cv#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
 }
