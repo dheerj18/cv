@@ -14,6 +14,6 @@ app.get("/", function (req, res) {
   res.sendFile(__dirname + "/index.html");
 });
 
-app.listen(3000 || process.env.PORT, function () {
+app.listen(3000 || Process.env.PORT, function () {
   console.log("Server running");
 });
